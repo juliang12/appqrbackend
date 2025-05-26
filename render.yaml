@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: nombre-de-tu-servicio
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    autoDeploy: true
+    branch: main
